@@ -1,0 +1,10 @@
+tornado==5.1.1
+pandas
+numpy
+matplotlib
+scipy
+mysql-connector
+baidu-aip
+apscheduler
+sqlalchemy
+tensorflow
