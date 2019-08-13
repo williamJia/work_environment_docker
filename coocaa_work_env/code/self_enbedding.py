@@ -58,9 +58,9 @@ all_df.drop(['genre','id'],axis=1,inplace=True)
 x_data = np.array(all_df)
 
 
-all_df = pd.read_csv('tags_v3_boolen_data.csv')[:100000]
-all_df.drop(['Unnamed: 0'],axis=1,inplace=True)
-x_data = np.array(all_df)
+# all_df = pd.read_csv('tags_v3_boolen_data.csv')[:100000]
+# all_df.drop(['Unnamed: 0'],axis=1,inplace=True)
+# x_data = np.array(all_df)
 
 ## 参数
 learning_rate = 0.01  ####学习率
